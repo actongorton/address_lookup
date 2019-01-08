@@ -15,7 +15,7 @@ function searchInput(address_query) {
 
       // send request to server
       var xhReq = new XMLHttpRequest();
-      xhReq.open("GET", "/Address Lookup/data/" + parsed_address[0] + "/data.csv", true);
+      xhReq.open("GET", "/Address Lookup/data/" + parsed_address[0] + "/data.csv", false);
       xhReq.send(null);
 
       // assign the response to a variable
