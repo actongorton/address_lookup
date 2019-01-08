@@ -52,7 +52,7 @@ var awesomplete = new Awesomplete(search_input, {
   minChars: 0
 });
 
-// trigger when text is entered into the input box with an id of `ward_lookup`
+// trigger when text is entered into the input box with an id of `address_lookup`
 ['change', 'input', 'submit', 'awesomplete-close'].forEach(function (e) {
   search_input.addEventListener(e, () => {
     // grab the values of the search_input
